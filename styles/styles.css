@@ -42,3 +42,20 @@ nav{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(78, 71, 255, 1);
 }
+
+.hero-banner{
+    font-size: 65px;
+    font-weight: bold;
+    max-width: 900px;
+    margin: 230px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.stay-focused{
+    margin-top: 30px;
+
+}
+
+
