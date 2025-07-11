@@ -2,7 +2,6 @@
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 main{
@@ -18,9 +17,8 @@ header {
   min-height: 100vh;
 }
 
-}
 /* nav styles */
-nav h1{
+.co-name{
     font-size: 34px;
     font-weight: 900;
     color: rgba(78, 71, 255, 1);
@@ -131,3 +129,139 @@ nav{
 }
 
 
+
+.column-title{
+    font-size: 1000;
+    font-weight: bold;
+}
+
+
+.get-in-touch-section {
+    padding: 100px 230px;
+    background-color: #f5f8ff;
+}
+
+
+.contact-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    
+}
+
+.left-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.section-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.right-column {
+    flex: 1;
+    min-width: 350px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #555;
+    margin-bottom: 8px;
+}
+.right-column input[type="email"],
+.right-column input[type="text"],
+.right-column textarea {
+    width: 100%;
+    padding: 15px 20px;
+    height: 64px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.right-column textarea {
+    height: 135px;
+    resize: vertical;
+}
+
+.right-column input::placeholder,
+.right-column textarea::placeholder {
+    color: #aaa;
+}
+
+.right-column input:focus,
+.right-column textarea:focus {
+    border-color: #4E47FF;
+    box-shadow: 0 0 0 3px rgba(78, 71, 255, 0.2);
+}
+.right-column input[type="submit"] {
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/* footer style */
+.logo{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgba(78, 71, 255, 1);
+}
+.footer-text{
+    font-size: 15px;
+    color: rgba(137, 135, 161, 1);
+}
+.primary-footer{
+    padding: 80px 150px;
+    text-align: center;
+}
+.footer-nav li a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
