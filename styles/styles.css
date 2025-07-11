@@ -227,6 +227,28 @@ nav{
     font-weight: 700;
 }
 
+/* review style */
+.review-section{
+    text-align: center;
+    padding: 100px 150px;
+}
+.review-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.review-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.review-card{
+    border-radius: 15px;
+    padding: 25px;
+}
+
 /* footer style */
 .logo{
     font-size: 70px;
@@ -245,16 +267,6 @@ nav{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
 }
-
-
-
-
-
-
-
-
-
-
 
 .footer-nav {
     list-style: none;
