@@ -10,10 +10,14 @@ main{
 }
 
 /* background image */
-header{
-    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
-    background-position: center;
-    background-repeat: no-repeat
+header {
+  background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 }
 /* nav styles */
 nav h1{
@@ -61,8 +65,8 @@ nav{
 /* action section styles */
 .action-section{
     display: flex;
-    gap: 80px;
-    margin: auto 140px auto 140px;
+    gap: 100px;
+    margin: 120px 140px 120px 140px;
 
 }
 .title{
@@ -80,4 +84,50 @@ nav{
     border-radius: 48px;
 
 }
+/* productive users section */
+
+.productive-users {
+    max-width: 1320px;
+    width: 100%;
+    margin: 120px auto;
+    padding: 50px 20px; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.productive-users-title {
+    font-size: 45px; 
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.productive-users-description {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.description-item {
+    text-align: center;
+}
+
+.number {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    display: block;
+}
+
+.description-sub-title {
+    font-size: 18px;
+    color: #666; 
+    margin-top: 20px;
+
+}
+
 
